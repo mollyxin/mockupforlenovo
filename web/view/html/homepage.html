@@ -2,47 +2,61 @@
 <html>
 
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <!-- <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet"> -->
     
-     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="homepage.css">
+   <!--   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../css/homepage.css">
     
   </head>
 
   <body>
     <div class = "header-container">
           <div class = "header">
-            <ul class = "pull-left">
-              <li><a href="#/nemo/homepage"><img src = "img/homepage/logo"></img></a></li>
-              <li>Call us at  1300 557 073</li>
-            </ul>
-            <ul class = "pull-right">
-              <ol class = "welcome-search">
-                <li class = "wecolome" >Welcome Ruoshi</li>
-                <li class = "search">
+           <div class="header-item">
+             <img src = "../../img/homepage/logo.PNG"></img>
+             <a href="#/nemo/homepage"></a>
+            </div>
+            <div class="header-item">
+              <div class="info">
+                 Call us at  1300 557 073
+              </div>
+            </div>
+            <div class="header-item" >
+              <div class="nav-function">
+              <div class= "welcome">
+                <div class="user">Weclome RuoShi</div>
+              </div>
+                <div class="search">
                   <form name = "search" method ="get" action= "#/nemo/search">
                     <input class="search-inputtext" type="text" name="text" value maxlength="180"/>
                     <button class= "search-buuton" type="submit">Search</button>
                   </form>
-                </li>
-                <li class="short-cuts">
-                  <ol class = "function-container">
-                    <li><a href="#/nemo/logout">Sign Out</li>
-                    <li class= "contact">Contact Lenovo</li>
-                    <li><a href="#/nemo/register">Email Sign-Up</li>
-                    <li class="mini-cart"><a href="#/nemo/My Account">Cart</li>
-                  </ol>
-                </li>
-              </ol>
-            </ul>
+                </div>
+                <div class="short-cuts">
+                  <div class= "function-item">Sign Out
+                    <a href="#/nemo/logout"></a>
+                  </div>
+                  <div class= "function-item">Contact Lenovo
+                    <a href="#/nemo/contact"></a>
+                  </div>
+                  <div class= "function-item">Sign up
+                    <a href="#/nemo/register"></a>
+                  </div>
+                  <div class= "function-item">My Account
+                    <a href="#/nemo/account"></a>
+                  </div>
+                  <div class= "function-item">Cart
+                    <a href="#/nemo/cart"></a>
+                  </div>
+              </div>
+            </div>
           </div>
-          <div class = "nav">
-            <ul>
-              <li class = "laptops">Laptops & Ultrabooks</li>
-              <li class = "tablets">Tablets</li>
-              <li class = "desktops">Desktop & All-in-Ones</li>
-              <li class = "accessories">Accessories & Upgrades</li>
-            </ul>              
+          </div>
+          <div class="nav">
+              <li class = "nav-item">Laptops & Ultrabooks</li>
+              <li class = "nav-item">Tablets</li>
+              <li class = "nav-item">Desktop & All-in-Ones</li>
+              <li class = "nav-item">Accessories & Upgrades</li>           
           </div>
           <div class = "breadrum">
             <a href="#/nemo/home">AU Education store | Home></a>
